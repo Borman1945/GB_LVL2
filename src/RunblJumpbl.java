@@ -1,3 +1,9 @@
-public interface RunblJumpbl {
 
+
+public interface RunblJumpbl {
+    int getLimitRun();
+    int getLimitJump();
+    void run(int paramRun);
+    void jump(int paramJump);
+    String getName();
 }
