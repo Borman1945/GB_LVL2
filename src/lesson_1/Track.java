@@ -1,4 +1,4 @@
-
+package lesson_1;
 
 public class Track extends Obstacles{
     private int length;

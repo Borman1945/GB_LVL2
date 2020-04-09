@@ -1,3 +1,5 @@
+package lesson_1;
+
 public abstract class Obstacles {
     int obstaclesParam;
     public Obstacles(int obstaclesParam){

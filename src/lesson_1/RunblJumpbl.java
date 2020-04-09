@@ -1,4 +1,4 @@
-
+package lesson_1;
 
 public interface RunblJumpbl {
     int getLimitRun();

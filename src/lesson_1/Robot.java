@@ -1,4 +1,4 @@
-
+package lesson_1;
 
 public class Robot implements RunblJumpbl {
     private String robotName;

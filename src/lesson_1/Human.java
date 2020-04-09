@@ -1,4 +1,4 @@
-
+package lesson_1;
 
 public class Human implements RunblJumpbl {
     private String name;

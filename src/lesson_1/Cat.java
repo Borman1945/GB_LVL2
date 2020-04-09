@@ -1,4 +1,4 @@
-
+package lesson_1;
 
 public class Cat implements RunblJumpbl {
     private String catname;
@@ -25,7 +25,7 @@ public class Cat implements RunblJumpbl {
 
     @Override
     public void run(int length) {
-        System.out.println("Cat " + catname + " бежит!");
+        System.out.printf("Cat %s бежит!",catname);
 
     }
 
