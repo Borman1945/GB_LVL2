@@ -18,7 +18,8 @@ public class ArraFunction {
         int varray = 0;
         for (int i = 0; i < arr.length; i++) {
             System.out.println(System.lineSeparator());
-            for (int j = 0; j < arr[i].length; j++) {
+            String[] row = arr[i];
+            for (int j = 0; j < row.length; j++) {
                 try {
                     varray = Integer.parseInt(arr[i][j]);
                 } catch (NumberFormatException e) {
