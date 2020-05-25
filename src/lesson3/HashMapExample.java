@@ -40,6 +40,13 @@ public class HashMapExample {
         String y_cod = new String("Миша") ;
         System.out.println(x_cod.hashCode() + "   " +  y_cod.hashCode());
 
+
+
+
+
     }
 
+    private void notErr(Map<String,Integer> map){
+
+    }
 }
