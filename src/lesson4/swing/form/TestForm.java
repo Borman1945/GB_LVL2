@@ -1,4 +1,4 @@
-package lesson4.swing;
+package lesson4.swing.form;
 
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
