@@ -4,7 +4,7 @@ import java.util.*;
 
 public class SetEaxample {
     public static void main(String... args){
-        Set<String> set = new TreeSet<>();  //HashSet - уникальные данные, нет порядка // LinkedHashSet уникальные упорядочные по факту добавления // TreeSet упорядоченные в зависмости от типа
+        Set<String> set = new HashSet<>();  //HashSet - уникальные данные, нет порядка // LinkedHashSet уникальные упорядочные по факту добавления // TreeSet упорядоченные в зависмости от типа
 
         set.add("Альфа");
         set.add("Omega");
@@ -15,6 +15,7 @@ public class SetEaxample {
         for (String s : set) {
             System.out.println(s);
         }
+/*
 
         List<Integer> list = new ArrayList<Integer>();
         list.add(1);
@@ -25,6 +26,7 @@ public class SetEaxample {
 
         list.forEach((Integer value) -> System.out.println(value));
 
+*/
 
     }
 }

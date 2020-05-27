@@ -8,7 +8,7 @@ public class ExceptionApp {
             int b = divide(a);
             System.out.println("это сообщение не будет выведено в консоль");
             return;
-       } catch (ArithmeticException | NullPointerException | NumberFormatException e){
+       } catch (DivideByZeroException | NullPointerException | NumberFormatException e){
             System.out.println("на ноль делить нельзя!");
 
         } finally {
