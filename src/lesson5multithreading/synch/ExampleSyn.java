@@ -13,7 +13,7 @@ public class ExampleSyn {
 
     }
 
-    public void met1(){
+     public void  met1() {
         System.out.println("Start me1");
         for (int i = 0;i <11;i++)
 
