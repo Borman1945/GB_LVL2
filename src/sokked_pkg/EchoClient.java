@@ -13,7 +13,7 @@ import java.net.Socket;
 import java.net.SocketException;
 
 public class EchoClient extends JFrame {
-    private final String SERVER_ADDR =  "91.77.216.245";/*"192.168.1.47";*/ /*"localhost"*/;
+    private final String SERVER_ADDR =  "91.77.216.245";/*"192.168.1.47"*/; /*"localhost"*/;
     private final int SERVER_PORT = 8190;
     private String name;
     private JTextField msgInputField;
